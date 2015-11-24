@@ -1,11 +1,10 @@
 body{
-	
 	padding: 50px;
 }
 
 h1{
 	text-align: center;
-	color: #4078C0;
+	color: #154673;
 }
 
 img{
@@ -13,8 +12,24 @@ img{
 	height: 180px;
 }
 
-table, th, td{
-	border:1px solid black;
-	border-collapse:collapse;
-	text-align: center
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #CCC;
+    font-size: 12px;
+}
+ 
+table th {
+    font-weight: bold;
+    background-color: #E1E1E1;
+    padding:5px;
+    text-align: center;
+}
+ 
+table tbody tr:hover td {
+    background-color: #E5E5D8;
+}
+ 
+table td {
+    padding: 5px 10px;
 }
